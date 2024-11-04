@@ -1,6 +1,6 @@
 // tests.rs
 use rusqlite::{Connection, Result};
-use my_crate::{create_table, drop_table, load_data_from_csv, query_exec}; // Use your actual crate name
+use sqlite::{create_table, query_exec,load_data_from_csv}; // Use your actual crate name
 
 #[cfg(test)]
 mod tests {
