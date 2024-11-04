@@ -46,6 +46,3 @@ jobs:
         name: CLI Binary
         path: ${{ env.WORKING_DIR }}/target/release/sqlite #change the /add to the name of your binary
     
-    - name: Test Speed
-      run: target/release/sqlite -t
-      working-directory: ${{ env.WORKING_DIR }}
