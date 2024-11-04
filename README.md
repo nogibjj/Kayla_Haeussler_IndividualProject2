@@ -6,6 +6,8 @@ Kayla Haeussler
 
 [![Rust CI/CD](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml)  
 
+Video overview: 
+
 ## Project Requirements
 * Rust source code: The code should comprehensively understand Rust's syntax and unique features.
 * Use of Github Copilot (Use of other LLMs): In your README, explain how you utilized Github Copilot or other LLM models in your coding process.
@@ -19,7 +21,7 @@ Kayla Haeussler
 The purpose of this project was to perform ETL (extract, transform load) and CRUD (create, read, update, delete) of a SQLite database using Rust. The data set I used in this project is the candy-data.csv dataset I have used in previous assignments, originally taken from the ```fivethirtyeight``` repository 
 
 ## Utilization of LLM Aid
-I ChatGPT to aid with syntax issues with Rust, as it is a language a
+I ChatGPT to aid with syntax issues with Rust, as it is a language a I do not have a lot of experience with. 
 
 ## Installing and Using this Tool
 First, ensure your rust environment is already set up.   
@@ -36,7 +38,7 @@ In the lib.rs file I have created functions that will execute Create, Read, Upda
 ![alt text](readme_photos/sqlite-h.png)
 
 We need to establish the projects release folder by running an export PATH command, adapted to your individual file paths. On my machine it looks like this:  
-``` export PATH=$PATH:/Users/kaylahaeusssler/Documents/DataEngineering/Kayla_Haeussler_MiniProject_7/sqlite/target/release```
+``` export PATH=$PATH:/Users/kaylahaeusssler/Documents/DataEngineering/Kayla_Haeussler_IndividualProject2/sqlite/target/release```
 ### Create
 ![alt text](readme_photos/sqlite-c.png)
 ### Load
