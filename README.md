@@ -1,4 +1,4 @@
-# Kayla_Haeussler_MiniProject_7
+# Kayla_Haeussler_IndividualProject2
 
 IDS 706: Mini Project 7  
 Create a command line tool using Rust  
