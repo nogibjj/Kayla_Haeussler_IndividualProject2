@@ -4,6 +4,8 @@ IDS 706: Individual Project 2
 Rust CLI Binary with SQLite  
 Kayla Haeussler  
 
+[![Rust CI/CD](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml)  
+
 ## Project Requirements
 * Rust source code: The code should comprehensively understand Rust's syntax and unique features.
 * Use of Github Copilot (Use of other LLMs): In your README, explain how you utilized Github Copilot or other LLM models in your coding process.
@@ -21,6 +23,7 @@ I ChatGPT to aid with syntax issues with Rust, as it is a language a
 
 ## Installing and Using this Tool
 First, ensure your rust environment is already set up.   
+Optimized Rust Binary: https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/runs/11670284906/artifacts/2142603898  
 
 ### clap, rusplite and csv
 Run the following in your terminal, this will make changes to the Cargo.toml file. 
