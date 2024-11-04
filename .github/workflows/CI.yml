@@ -1,5 +1,4 @@
-name: CI
-
+name: Rust CI/CD
 on:
   push:
     branches:
@@ -17,7 +16,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Install Rust
       uses: actions-rs/toolchain@v1
@@ -26,23 +25,27 @@ jobs:
         override: true
 
     - name: Check
-      run: make check
+      run: cargo check
       working-directory: ${{ env.WORKING_DIR }}
 
     - name: Format
-      run: make format
+      run: cargo fmt
       working-directory: ${{ env.WORKING_DIR }}
 
     - name: Test
-      run: make test
+      run: cargo test -- --test-threads 1 --nocapture
       working-directory: ${{ env.WORKING_DIR }}
 
     - name: Release
-      run: make release
+      run: cargo build --release
       working-directory: ${{ env.WORKING_DIR }}
 
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v4 #v3 is scheduled for deprecation Nov 30 2024 check marketplace
       with:
-        name: release-binary
-        path: ${{ env.WORKING_DIR }}/target/release/sqlite
+        name: CLI Binary
+        path: ${{ env.WORKING_DIR }}/target/release/sqlite #change the /add to the name of your binary
+    
+    - name: Test Speed
+      run: target/release/sqlite -t
+      working-directory: ${{ env.WORKING_DIR }}
