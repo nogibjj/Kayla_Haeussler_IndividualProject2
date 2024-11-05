@@ -6,7 +6,7 @@ Kayla Haeussler
 
 [![Rust CI/CD](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kayla_Haeussler_IndividualProject2/actions/workflows/CI.yml)  
 
-Video overview: 
+Video overview: https://youtu.be/273KRvnfFPE
 
 ## Project Requirements
 * Rust source code: The code should comprehensively understand Rust's syntax and unique features.
