@@ -21,7 +21,7 @@ Video overview:
 The purpose of this project was to perform ETL (extract, transform load) and CRUD (create, read, update, delete) of a SQLite database using Rust. The data set I used in this project is the candy-data.csv dataset I have used in previous assignments, originally taken from the ```fivethirtyeight``` repository 
 
 ## Utilization of LLM Aid
-I ChatGPT to aid with syntax issues with Rust, as it is a language a I do not have a lot of experience with. 
+I ChatGPT to aid with syntax issues with Rust, as it is a language a I do not have a lot of experience with. Specifically, I used ChatGPT to translate a previous project where I used Python to Rust.
 
 ## Installing and Using this Tool
 First, ensure your rust environment is already set up.   
